@@ -1,0 +1,171 @@
+    1  ls
+    2  python --version
+    3  sudo python --version
+    4  cd /
+    5  ls
+    6  python --version
+    7  python
+    8  cd ~
+    9  ls
+   10  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   11  sudo yum search wget
+   12  sudo yum install wget
+   13  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   14  ls
+   15  wget --version
+   16  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   17  sudo wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   18  sudo yum install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
+   19  sudo wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   20  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   21  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+   22  ls
+   23  ./bash Anaconda3-2021.05-Linux-x86_64.sh
+   24  bash Anaconda3-2021.05-Linux-x86_64.sh
+   25  ls
+   26  source ~/.bashrc
+   27  ls
+   28  cd anaconda3/
+   29  ls
+   30  cd bin/
+   31  ls
+   32  pip3 install apache-airflow
+   33  pip3 install streamlit
+   34  streamlit hello
+   35  streamlit hello &
+   36  ls
+   37  history
+   38  history cat >> comandos-instalacao.txt
+   39  history >> comandos-instalacao.txt
+   40  ls
+   41  ls com*
+   42  nano comandos-instalacao.txt 
+   43  ./nano comandos-instalacao.txt 
+   44  mv comandos-instalacao.txt ~/
+   45  ls
+   46  ls ~/
+   47  sudo yum install -y nano
+   48  nano ~/comandos-instalacao.txt 
+   49  ls
+   50  clear
+   51  ls
+   52  wget https://drive.google.com/file/d/1ZDe2yAXrJWx94Dp0UdJF93Mze3s4wHC7/view
+   53  ls
+   54  wget https://drive.google.com/u/0/uc?id=1ZDe2yAXrJWx94Dp0UdJF93Mze3s4wHC7&export=download
+   55  ls
+   56  nano ~/comandos-instalacao.txt 
+   57  ls
+   58  wget -p https://drive.google.com/u/0/uc?id=1ZDe2yAXrJWx94Dp0UdJF93Mze3s4wHC7
+   59  ls
+   60  cd drive.google.com/
+   61  ls
+   62  cd u/0/uc\?id\=1ZDe2yAXrJWx94Dp0UdJF93Mze3s4wHC7 
+   63  ls
+   64  cd ..
+   65  ls
+   66  sudo dnf install epel-release
+   67  sudo dnf update
+   68  sudo dnf install sqlite
+   69  sqlite3 --version
+   70  sqlite3
+   71  ls
+   72  rm -rf drive.google.com/
+   73  ls
+   74  rm -rf uc\?id\=1ZDe2yAXrJWx94Dp0UdJF93Mze3s4wHC7 
+   75  ls
+   76  rm -rf view 
+   77  ls
+   78  rm -rf Anaconda3-2021.05-Linux-x86_64.sh 
+   79  ls
+   80  rm - rf wget-log 
+   81  ls
+   82  rm -rf wget-log 
+   83  ls
+   84  airflow db init
+   85  airflow users create --username admin --password admin --firstname [nome] --lastname
+   86  airflow users create --username admin --password admin --firstname Giovane --lastname Reis --role Admin --email giovanebmr@gmail.com
+   87  ls
+   88  cd airflow/
+   89  ls
+   90  mkdir dags
+   91  ls
+   92  cd dags/
+   93  ls
+   94  nano data_pipeline.py
+   95  cd %home%
+   96  cd ~
+   97  ls
+   98  mkdir data
+   99  ls
+  100  cd airflow/
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd data/
+  105  ls
+  106  nano imoveis_dw.db
+  107  ls
+  108  cd data/
+  109  cd ..
+  110  mkdir aula1
+  111  ls
+  112  cd aula1/
+  113  mkdir data
+  114  ls
+  115  cd data
+  116  ls
+  117  wget https://drive.google.com/file/d/1xNmqvpcIG6mO1oVt-4fGTMamj0KLrtrR/view/stack_materiais-aula2.zip
+  118  ls
+  119  wget https://drive.google.com/file/d/1xNmqvpcIG6mO1oVt-4fGTMamj0KLrtrR
+  120  ls
+  121  cd 1xNmqvpcIG6mO1oVt-4fGTMamj0KLrtrR 
+  122  cd ..
+  123  ls
+  124  cd ..
+  125  ls
+  126  rm aula1/
+  127  ls
+  128  rm -rf aula1
+  129  ls
+  130  rm -rf data
+  131  ls
+  132  git clone https://github.com/giovanebmr/BootCampStack.git
+  133  sudo dnf update -y
+  134  sudo dnf install git -y
+  135  ls
+  136  git clone https://github.com/giovanebmr/BootCampStack.git
+  137  ls
+  138  cd BootCampStack/
+  139  ls
+  140  cd Aula1
+  141  ls
+  142  which imoveis_dw.db
+  143  cd data/
+  144  ls
+  145  cd ..
+  146  ls
+  147  cd airflow/
+  148  ls
+  149  cd dags/
+  150  nano data_pipeline.py 
+  151  pwd
+  152  ls
+  153  nano data_pipeline.py 
+  154  cd /home/giovanebmr/BootCampStack/Aula1/data/
+  155  ls
+  156  pwd
+  157  cd /home/giovanebmr/airflow/
+  158  ls
+  159  cd dags
+  160  ls
+  161  nano data_pipeline.py 
+  162  sqlite --version
+  163  sqlite3 --version
+  164  nano data_pipeline.py 
+  165  ls
+  166  nano data_pipeline.py 
+  167  airflow webserver
+  168  airflow scheduler
+  169  netstat
+  170  ls
+  171  history >> comandos-instalacao2.txt 

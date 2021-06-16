@@ -1,0 +1,29 @@
+Na imagem zerado do centos8  instalei o anaconda, não precisei instalar o python antes...
+
+source ~/.bashrc é importante para iniciar o base/anaconda3
+
+dentro do terminal base do anaconda consegui instalar o apache-airflow e o stremlit
+
+
+
+   10  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   11  sudo yum search wget
+   12  sudo yum install wget
+   13  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   14  ls
+   15  wget --version
+   18  sudo yum install libXcomposite libXcursor libXi libXtst libXrandr alsa-lib mesa-libEGL libXdamage mesa-libGL libXScrnSaver
+   19  sudo wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+   21  wget –P ~/Downloads https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+   22  ls
+   24  bash Anaconda3-2021.05-Linux-x86_64.sh
+   25  ls
+   26  source ~/.bashrc
+   27  ls
+   28  cd anaconda3/
+   29  ls
+   30  cd bin/
+   31  ls
+   32  pip3 install apache-airflow
+   33  pip3 install streamlit
+   39  history >> comandos-instalacao.txt
